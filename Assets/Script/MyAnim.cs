@@ -62,7 +62,7 @@ public class MyAnim : MonoBehaviour
             pref.transform.position = pos;
             
             //cette prochaine ligne permet simplement de, si on le souhaite, faire tourner les cubes sur eux-mêmes, pour le fun
-            pref.transform.eulerAngles = pos*10; 
+            //pref.transform.eulerAngles = pos*10; 
             
             i++;
         }
